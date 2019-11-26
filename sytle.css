@@ -9,4 +9,21 @@ header {
     left: 0;
     right: 0;
     top: 0;
+    /* this is how sticky menues are created */
+}
+
+.hamburger {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.lollipop {
+    position: fixed;
+    bottom: 4px;
+    right: 5px;
 }
