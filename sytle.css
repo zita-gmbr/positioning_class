@@ -10,6 +10,13 @@ header {
     right: 0;
     top: 0;
     /* this is how sticky menues are created */
+    display: flex;
+    justify-content: space-around;
+}
+
+header a {
+    background-color: salmon;
+    padding: 0.5em;
 }
 
 .hamburger {
@@ -26,4 +33,22 @@ h1 {
     position: fixed;
     bottom: 4px;
     right: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    grid-template-rows: 100px 100px;
+}
+
+.grid-container div {
+    
 }
